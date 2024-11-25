@@ -9,13 +9,13 @@ def load_and_clean_data(file_path='data/imdb_top_1000.csv'):
     df = pd.read_csv(file_path)
     
     # Select relevant columns and handle any missing data
-    columns = ['Series_Title', 'Released_Year', 'Genre', 'IMDB_Rating', 'Director']
+    columns = ['Series_Title', 'Released_Year', 'Genre', 'Director']
         
     # Drop rows with missing values
     df = df[columns].dropna()
     
     # Rename columns for convenience
-    df.columns = ['title', 'year', 'genre', 'rating', 'director']
+    df.columns = ['title', 'year', 'genre', 'director']
     
     # Clean year column - keep only numeric values
     df = df[df['year'].str.isnumeric()]
