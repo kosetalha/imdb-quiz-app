@@ -3,9 +3,9 @@
 
 The **IMDb Quiz App** is an interactive web application where users can test their movie directors knowledge! The app dynamically generates movie-related multiple-choice questions using an IMDb dataset. Built with Python and Streamlit, it offers a fun and challenging experience with difficulty-based scoring and visual feedback on performance.
 
-This project is developed for the [Coding for Data Science and Data Management](https://www.unimi.it/en/education/degree-programme-courses/2025/coding-data-science-and-data-management) course.
+This project is developed as part of the [Coding for Data Science and Data Management](https://www.unimi.it/en/education/degree-programme-courses/2025/coding-data-science-and-data-management) course.
 
-Play it on: https://imdb-quiz-app.streamlit.app/
+Play at: https://imdb-quiz-app.streamlit.app/
 
 ---
 
